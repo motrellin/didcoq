@@ -1,5 +1,5 @@
-fullname: Template for Coq-Projects on Github
-shortname: comoproj
+fullname: Didactic Coq
+shortname: didcoq
 branch: main
 organization: motrellin
 
@@ -56,10 +56,9 @@ action_appendix: |2-
 community: false
 coqdoc: true
 submodule: true #At least for coqdocjs
-synopsis: A dummy template for Github Coq-Projects
+synopsis: tba
 description: |
-  No special package. Just used to illustrate a possible template for 
-  Github Coq-Projects.
+  tba
 
 #chat:
 
@@ -72,8 +71,8 @@ maintainers:
     nickname: motrellin
 
 license:
-  fullname: GNU General Public License v3.0 or later
-  identifier: GPL-3.0-or-later
+  fullname: MIT License
+  identifier: MIT
 
 supported_coq_versions:
   text: Developed for 8.19.0
@@ -81,23 +80,18 @@ supported_coq_versions:
 
 #namespace: CoMoTemplTest
 
-dependencies:
-  - description: Coq Equations
-    opam:
-      name: coq-equations
+#dependencies:
+  #- description: Coq Equations
+    #opam:
+      #name: coq-equations
 
-namespace: CoMoProj
+namespace: DidCoq
 
 make_target: all
 
 documentation: |-
   ## Documentation
-
-  This project contains a template for Github Coq-Projects. It aims to combine
-  several helpful approaches:
-  - [Auto-Generating _CoqProject](https://gitlab.cs.fau.de/oc59yqul/template-coq)
-  - [Generic repository infrastructure](https://github.com/coq-community/templates)
-  - [CoqdocJS](https://github.com/coq-community/coqdocjs)
+  tba.
 
 #index_documentation:
 

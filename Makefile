@@ -16,8 +16,7 @@
 
 # Configuration
 
-#TODO Change the following lines for configuration.
-COMPONENTS := theories:CoMoProj
+COMPONENTS := theories:DidCoq
 
 COQDOC_FLAGS = --utf8
 

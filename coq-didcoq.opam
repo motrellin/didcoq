@@ -1,0 +1,30 @@
+# This file was generated from `meta.yml`, please do not edit manually.
+# Follow the instructions on https://github.com/coq-community/templates to regenerate.
+
+opam-version: "2.0"
+maintainer: "ole.elliger@fau.de"
+version: "dev"
+
+homepage: "https://github.com/motrellin/didcoq"
+dev-repo: "git+https://github.com/motrellin/didcoq.git"
+bug-reports: "https://github.com/motrellin/didcoq/issues"
+doc: "https://motrellin.github.io/didcoq/"
+license: "MIT"
+
+synopsis: "tba"
+description: """
+tba
+"""
+
+build: [make "-j%{jobs}%" "all"]
+install: [make "install"]
+depends: [
+  "coq" { "8.19" }
+]
+
+tags: [
+  "logpath:DidCoq"
+]
+authors: [
+  "Max Ole Elliger <ole.elliger@fau.de>"
+]
